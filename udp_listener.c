@@ -56,7 +56,7 @@ int main() {
         }
 
         buffer[n] = '\0';  // Null-terminate the string
-        printf("[RECEIVED] %s\n", buffer);
+        printf("%s\n", buffer);
     }
 
     close(sockfd);
